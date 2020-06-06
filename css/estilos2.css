@@ -1,0 +1,90 @@
+
+body{
+    background-image: url(../images/); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background: rgba(164,179,87,1);
+background: -moz-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,1)));
+background: -webkit-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -o-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -ms-linear-gradient(left, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
+    
+
+}
+
+h1{
+    font-size:  28px;
+    color: white;
+    text-align: center;
+}
+
+.cabecera > .imagen{
+    position: relative;
+    padding-top: -1px;
+    width:300px;
+    height:300px;
+    border-radius: 0px;
+    
+}
+
+form.login {
+    background: none repeat scroll 0 0 black;
+    border: 1px solid #DDDDDD;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+    width: 400px;
+    left: -15px;
+    bottom: -130px;
+ 
+}
+div {
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-left: 25px;
+
+}
+ div label {
+    display: block;
+    float: left;
+    line-height: 25px;
+    color: white;
+    
+   
+}
+ div input[type="text"], form.login div input[type="password"],
+ div input[type="email"] {
+    border: 1px solid #DCDCDC;
+    float: right;
+    padding: 4px;
+   
+    
+    
+}
+ div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;
+    float: right;
+    font-weight: bold;
+    padding: 4px 20px;
+    margin-right: 100px;
+    margin-top: 10px;
+   
+}
+
+.redes89{
+    color: white;
+    display: flex;
+}
+
+.redes90{
+    color: white;
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 17px;
+    text-decoration: none;
+}
